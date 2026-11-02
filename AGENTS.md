@@ -9,6 +9,13 @@ Read `docs/README.md` inside that installed package first, then read the relevan
 This block is written and re-added by `turbo` before repository-scoped commands when an AI agent is detected. In the Turborepo source repository, its template is defined in `crates/turborepo-cli/src/cli/agent_guidance.rs`. Removing the managed block while updates are enabled means a later qualifying invocation will add it again. Set `"agentGuidance": false` in the root `turbo.json` or `turbo.jsonc` to opt out; this does not remove an existing block. Keep the block committed with your work to avoid an uncommitted change on the next agent invocation.
 <!-- END:turborepo-agent-rules -->
 
+## Product bar
+
+Build every app and site to the bar of Linear's website or Apple Notes: simple purpose, simple architecture, simple design, simple implementation.
+
+- Cut taglines, helper text and secondary labels. If a screen needs them to make sense, fix the layout.
+- Every decision should improve user experience (UX), developer experience (DX) and agent experience (AX) at once, without breaking anything.
+
 ## Repository map
 
 Start with [README.md](README.md) (layout, develop, deploy). Product UI rules: [docs/design.md](docs/design.md) (Frame: person color on the frame, ink on paper). System shape: [docs/architecture.md](docs/architecture.md).
